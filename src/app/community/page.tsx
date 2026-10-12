@@ -12,14 +12,17 @@ import {
 
 
 const experiences = [
-    {
-        id: 1,
-        title: "Software Engineer",
-        company: "Google",
-        difficulty:"Hard",
-        likes: "24",
-    },
-     description:
+  {
+    id: 1,
+    company: "Google",
+    role: "Software Engineer",
+    category: "Full-time",
+    difficulty: "Hard",
+    author: "Aanya Singh",
+    time: "2 days ago",
+    likes: 24,
+    comments: 8,
+    description:
       "The interview focused on data structures and algorithms. I was asked two coding questions: Two Sum and a variation of Longest Substring Without Repeating Characters. Focus on explaining your approach and time complexity.",
     tags: ["DSA", "Arrays", "HashMap"],
   },
