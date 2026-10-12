@@ -51,7 +51,7 @@ export default function HomePage() {
     <main className="min-h-screen overflow-hidden bg-[#faf9ff] text-slate-900">
       {/* Navigation */}
       <nav className="sticky top-0 z-20 border-b border-slate-200/70 bg-white/90 backdrop-blur-xl">
-        <div className="mx-auto flex h-[76px] max-w-7xl items-center justify-between px-5 sm:px-8">
+        <div className="mx-auto flex h-19 max-w-7xl items-center justify-between px-5 sm:px-8">
           <Link href="/" className="flex items-center gap-2.5">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-600 text-white shadow-lg shadow-indigo-200">
               <MessageCircle size={22} />
@@ -101,7 +101,7 @@ export default function HomePage() {
 
       {/* Hero */}
       <section className="relative px-5 pb-20 pt-20 sm:px-8 sm:pb-28 sm:pt-28">
-        <div className="pointer-events-none absolute left-1/2 top-0 -z-0 h-[420px] w-[720px] -translate-x-1/2 rounded-full bg-indigo-200/30 blur-[120px]" />
+        <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-105 w-180 -translate-x-1/2 rounded-full bg-indigo-200/30 blur-[120px]" />
 
         <div className="relative mx-auto max-w-5xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-indigo-100 bg-white px-4 py-2 text-xs font-semibold text-indigo-700 shadow-sm sm:text-sm">
@@ -112,14 +112,14 @@ export default function HomePage() {
 
           <h1 className="mx-auto mt-8 max-w-4xl text-4xl font-extrabold leading-[1.12] tracking-tight sm:text-6xl lg:text-7xl">
             Every interview is a chance to{" "}
-            <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-indigo-600 via-violet-600 to-purple-600 bg-clip-text text-transparent">
               grow.
             </span>
           </h1>
 
           <p className="mx-auto mt-7 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
             Learn from real interview experiences, share what you know, and
-            improve your answers with AI. Your next interview doesn't have to
+            improve your answers with AI. Your next interview doesn&apos;t have to
             feel like your first.
           </p>
 
@@ -262,7 +262,7 @@ export default function HomePage() {
 
       {/* Community call to action */}
       <section className="px-5 py-20 sm:px-8 sm:py-24">
-        <div className="mx-auto max-w-5xl overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-700 via-indigo-600 to-violet-700 px-6 py-12 text-center text-white shadow-xl shadow-indigo-200 sm:px-12 sm:py-16">
+        <div className="mx-auto max-w-5xl overflow-hidden rounded-3xl bg-linear-to-br from-indigo-700 via-indigo-600 to-violet-700 px-6 py-12 text-center text-white shadow-xl shadow-indigo-200 sm:px-12 sm:py-16">
           <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-white/15">
             <Star size={28} />
           </div>
